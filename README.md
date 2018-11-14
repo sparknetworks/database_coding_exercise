@@ -1,4 +1,4 @@
-# Matchmaking in DB
+# Matchmaking in DB (postgreSQL)
 This exercise consists of these steps:
 * creating a schema that allows us to store user data and match users to each other
 * ingesting data from the file [data.json](data.json)
@@ -7,6 +7,9 @@ This exercise consists of these steps:
    * in case there are no more matches available for a specific user, no action should be taken
 * creating a stored procedure (get_matches) that will return matches for a specific user based on their name
 * creating a stored procedure (reject_match) that allows us to mark a match as rejected
+* writing tests
+
+Please use postgreSQL.
    
 ## Input data
 The input data is provided as a well structured JSON file that can be found in this repository.
